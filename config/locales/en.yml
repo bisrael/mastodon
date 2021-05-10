@@ -52,6 +52,7 @@ en:
     user_count_before: Home to
     what_is_mastodon: What is Mastodon?
   accounts:
+    blocked_username: The username is invalid.
     choices_html: "%{name}'s choices:"
     endorsements_hint: You can endorse people you follow from the web interface, and they will show up here.
     featured_tags_hint: You can feature specific hashtags that will be displayed here.
@@ -584,6 +585,9 @@ en:
         desc_html: Allow users to be discoverable
         title: Enable profile directory
       registrations:
+        blocked_username_words:
+          desc_html: Word segments that are banned from new user signups, attempting to use one of these during signup will block your signup.
+          title: Blocked Username Words
         closed_message:
           desc_html: Displayed on frontpage when registrations are closed. You can use HTML tags
           title: Closed registration message

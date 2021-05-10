@@ -13,6 +13,7 @@ class Form::AdminSettings
     site_terms
     registrations_mode
     closed_registrations_message
+    blocked_username_words
     open_deletion
     timeline_preview
     show_staff_badge
